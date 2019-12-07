@@ -1,9 +1,28 @@
-h3 {
-  margin-top: 30px;
+form {
+  padding: 50px;
 }
 
-button {
+.jumbotron {
+  background-color: #c4f2f5;
+  color: #064b5c;
+}
+
+.well {
+  background-color: #c4f2f5;
+  color: #484c4d;
+}
+
+h3 {
   margin-top: 30px;
+  color: #064b5c;
+}
+
+.btn {
+  margin-top: 30px;
+  background-color: white;
+  color: #484c4d;
+  text: bold;
+  width: 100%;
 }
 
 #output {
