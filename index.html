@@ -10,10 +10,117 @@
   <body>
     <div class="container">
       <div class="jumbotron">
+        <h1>Which programming language should you learn?</h1>
+        <p>Submit your answers to the following survey questions to find out!</p>
+      </div>
 
+      <form>
+        <div id="question1">
+          <h3>What is your favorite season of the year?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="firstQuestion" value="winter" checked>
+              Winter. I am a creature of rain and darkness.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="firstQuestion" value="spring">
+              Spring, when the cherry blossoms are blooming.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="firstQuestion" value="summer">
+              Summer, the only season in which I can safely leave my rain jacket in the closet.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="firstQuestion" value="fall">
+              Fall, when leaves cover the street and offer a satisfying crunch to bike over.
+            </label>
+          </div>
+        </div>
 
+        <div id="question2">
+          <h3>Which of the following adjectives would you use to describe yourself?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="secondQuestion" value="boisterous" checked>
+              Boisterous
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="secondQuestion" value="artistic">
+              Artistic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="secondQuestion" value="analytical">
+              Analytical
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="secondQuestion" value="easy going">
+              Easy-going
+            </label>
+          </div>
+        </div>
 
+        <div id="question3">
+          <h3>What is your favorite season of the year?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="thirdQuestion" value="" checked>
 
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="thirdQuestion" value="">
+
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="thirdQuestion" value="">
+
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="thirdQuestion" value="">
+
+            </label>
+          </div>
+        </div>
+
+        <div id="question4">
+          <h3>Which of the following do you drink everyday?</h3>
+          <select class="form-control" id="beverage">
+            <option>Kombucha</option>
+            <option>Coffee</option>
+            <option>Tea</option>
+            <option>Wine</option>
+            <option>Soda</option>
+            <option>None of the above. Water only.</option>
+          </select>
+        </div>
+
+        <div id="question5">
+
+        </div>
+
+        <button type="submit" class="btn">Submit survey</button>
+      </form>
+
+      <div id="output">
+
+      </div>
 
     </div>
   </body>

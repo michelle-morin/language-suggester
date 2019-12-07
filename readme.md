@@ -26,3 +26,5 @@ _HTML, CSS, JavaScript, jQuery, Bootstrap_
 ### License
 
 Copyright (c) 2019 **_Michelle Morin_**
+
+*This software is licensed under the MIT license.*
