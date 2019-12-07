@@ -14,9 +14,9 @@
         <p>Submit your answers to the following survey questions to find out!</p>
       </div>
 
-      <form>
-        <div id="question1">
-          <h3>What is your favorite season of the year?</h3>
+      <div class="well">
+        <form>
+          <h3>What is your favorite season?</h3>
           <div class="radio">
             <label>
               <input type="radio" name="firstQuestion" value="winter" checked>
@@ -41,9 +41,7 @@
               Fall, when leaves cover the street and offer a satisfying crunch to bike over.
             </label>
           </div>
-        </div>
 
-        <div id="question2">
           <h3>Which of the following adjectives would you use to describe yourself?</h3>
           <div class="radio">
             <label>
@@ -69,39 +67,41 @@
               Easy-going
             </label>
           </div>
-        </div>
 
-        <div id="question3">
-          <h3>What is your favorite season of the year?</h3>
+          <h3>How do you spend your free time?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="thirdQuestion" value="" checked>
-
+              <input type="radio" name="thirdQuestion" value="cycling" checked>
+              Riding my bicycle
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="thirdQuestion" value="">
-
+              <input type="radio" name="thirdQuestion" value="reading">
+              Immersing myself in a novel
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="thirdQuestion" value="">
-
+              <input type="radio" name="thirdQuestion" value="knitting">
+              Knitting a new scarf
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="thirdQuestion" value="">
-
+              <input type="radio" name="thirdQuestion" value="TV">
+              Binging a television series
             </label>
           </div>
-        </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="thirdQuestion" value="working">
+              Working. What is free time?
+            </label>
+          </div>
 
-        <div id="question4">
           <h3>Which of the following do you drink everyday?</h3>
-          <select class="form-control" id="beverage">
+          <select class="form-control" id="fourthQuestion">
             <option>Kombucha</option>
             <option>Coffee</option>
             <option>Tea</option>
@@ -109,14 +109,44 @@
             <option>Soda</option>
             <option>None of the above. Water only.</option>
           </select>
-        </div>
 
-        <div id="question5">
+          <h3>Education and work experience aside, which of the following professions aligns with your personality?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="fifthQuestion" value="astronaut" checked>
+              Astronaut, or any other endeavor involving a shiny spacesuit.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="fifthQuestion" value="food scientist">
+              Food scientist
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="fifthQuestion" value="veterinarian">
+              Veterinarian
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="fifthQuestion" value="host">
+              Late-night talk show host
+            </label>
+          </div>
 
-        </div>
+          <h3>How much programming experience do you have?</h3>
+          <select class="form-control" id="sixthQuestion">
+            <option value="1">zero</option>
+            <option value="2">less than one year of experience</option>
+            <option value="3">between one and five years of experience</option>
+            <option value="4">more than five years of experience</option>
+          </select>
 
-        <button type="submit" class="btn">Submit survey</button>
-      </form>
+          <button type="submit" class="btn">Recommend a programming language!</button>
+        </form>
+      </div>
 
       <div id="output">
 
