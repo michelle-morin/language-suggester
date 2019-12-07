@@ -1,28 +1,42 @@
-// back-end logic:
+// back-end logic: none.
 
 
 // front-end logic:
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
-    event.preventDefault;
+    event.preventDefault();
     var music = $("input:radio[name=fifthQuestion]:checked").val();
     var programmingExperience = parseInt($("#sixthQuestion").val());
 
     var firstResult;
       if (programmingExperience === 1) {
-        firstResult = ;
+        firstResult = "Python";
       } else if (programmingExperience === 2) {
-        firstResult = ;
+        firstResult = "Ruby";
       } else if (programmingExperience === 3) {
-        firstResult = ;
+        firstResult = "C++";
       } else if (programmingExperience === 4) {
-        firstResult = ;
+        firstResult = "Go";
       }
 
     var secondResult;
       if (music === "hiphop") {
-        secondResult = ;
+        secondResult = "Swift";
+      } else if (music === "hype") {
+        secondResult = "Swift";
+      } else if (music === "rock") {
+        secondResult = "Swift";
+      } else if (music === "indie") {
+        secondResult = "Swift";
+      } else if (music === "metal") {
+        secondResult = "Java";
+      } else if (music === "no") {
+        secondResult = "Java";
       }
-      // hype, rock, indie, metal, none
-  })
-})
+
+    $(".firstOutput").text(firstResult);
+    $(".secondOutput").text(secondResult);
+    $(".musicSelection").text(music);
+    $("#output").show();
+  });
+});
