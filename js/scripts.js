@@ -41,6 +41,28 @@ $(document).ready(function() {
       $(".name").text("Hey there");
     }
 
+    if (firstResult === "Python") {
+      $("#python").show();
+      $("#ruby").hide();
+      $("#go").hide();
+      $("#c-plus-plus").hide();
+    } else if (firstResult === "Ruby") {
+      $("#python").hide();
+      $("#ruby").show();
+      $("#go").hide();
+      $("#c-plus-plus").hide();
+    } else if (firstResult === "Go") {
+      $("#python").hide();
+      $("#ruby").hide();
+      $("#go").show();
+      $("#c-plus-plus").hide();
+      } else if (firstResult === "C++") {
+      $("#python").hide();
+      $("#ruby").hide();
+      $("#go").hide();
+      $("#c-plus-plus").show();
+    }
+
     $(".firstOutput").text(firstResult);
     $(".secondOutput").text(secondResult);      $(".musicSelection").text(music);
     $("#output").addClass("card border-dark").show();
