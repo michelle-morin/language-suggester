@@ -35,10 +35,14 @@ $(document).ready(function() {
         secondResult = "Java";
       }
 
-    $("#output").addClass("well").show();
-    $(".name").text(name);
+    if (name) {
+      $(".name").text(name);
+    } else {
+      $(".name").text("Hey there");
+    }
+
     $(".firstOutput").text(firstResult);
-    $(".secondOutput").text(secondResult);
-    $(".musicSelection").text(music);
+    $(".secondOutput").text(secondResult);      $(".musicSelection").text(music);
+    $("#output").addClass("card border-dark").show();
   });
 });

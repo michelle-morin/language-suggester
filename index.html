@@ -5,18 +5,23 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
+    <style type="text/css">
+      .bg-cover {
+        background-image: url('img/code.jpeg');
+      }
+    </style>
     <title>Programming Language Suggester</title>
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
+      <div class="jumbotron jumbotron bg-cover">
         <h1>Which programming language should you learn?</h1>
-        <p>Submit your answers to the following survey questions to find out!</p>
+        <p><strong>Complete the following survey to find out.</strong></p>
       </div>
 
       <div class="row">
         <div class="col-md-12">
-          <div class="well">
+          <div class="card border-dark">
             <form id="survey">
               <div class="form-group">
                 <h3>Please enter your name:</h3>
@@ -188,7 +193,7 @@
       <div id="output">
         <div class="row">
           <div class="col-md-12"
-            <div class="well">
+            <div class="card border-dark">
               <h3>Your recommendation:</h3>
               <p><span class="name"></span>, based on your experience with programming, we recommend that you learn <span class="firstOutput"></span>!</p>
               <p>Further, because you enjoy listening to <span class="musicSelection"></span> music at work, you may also wish to consider learning <span class="secondOutput"></span>.</p>
