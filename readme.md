@@ -1,12 +1,12 @@
-# _Language Suggester_
+# _Programming Language Suggester_
 
-#### _A tool for suggesting a programming language to a user, 12.07.19_
+#### _A tool for recommending a programming language to a user, 12.07.19_
 
 #### By _**Michelle Morin**_
 
 ## Description
 
-This webpage includes a form that collects input from a user. Based on the user's input, the webpage outputs a suggested programming language for the user to explore. This webpage is an exercise in HTML, CSS, JavaScript, and jQuery. The webpage is styled using Bootstrap and custom CSS.
+This webpage includes a form that collects input from a user. When the user submits the form, the webpage outputs a suggested programming language (selected from Python, Ruby, Go, and C++) for the user to explore. The recommendation is based on the number of years that the user has been programming. The webpage also outputs a secondary recommendation based on a user's music preference. This webpage is an exercise in HTML, CSS, JavaScript, and jQuery. The webpage is styled using Bootstrap and custom CSS.
 
 ## Setup Requirements
 
@@ -14,10 +14,10 @@ This webpage includes a form that collects input from a user. Based on the user'
 * _Open a command line interface, such as the Terminal._
 * _Navigate to your computer's desktop using the command "cd desktop"._
 * _Confirm that you have navigated to the desktop by using the command "pwd"._
-* _Once on the desktop, enter the command "git clone https://github.com/michelle-morin/language-suggester" in the Terminal_
-* _The repository should now be cloned to your Desktop. To navigate to the language-suggester directory in the Terminal, enter the command "cd language-suggester"._
-* _To access and/or edit the HTML, CSS, and JavaScript that of the webpage, open the repository in Atom using the command "atom ."_
-* _To use the language suggester webpage to obtain a programming language recommendation, open index.html in your web browser of choice._
+* _Once the working directory is set to the desktop, enter the command "git clone https://github.com/michelle-morin/language-suggester" in the Terminal to clone this repository to the desktop._
+* _The repository should now be cloned to your desktop. To navigate into the language-suggester directory in the Terminal, enter the command "cd language-suggester"._
+* _To access and/or edit the HTML, CSS, and JavaScript that of the webpage, open contents of the repository in Atom using the command "atom ."_
+* _To obtain a programming language recommendation using the language suggester, open index.html in your web browser of choice._
 
 ## Technologies Used
 
