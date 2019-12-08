@@ -34,9 +34,9 @@ $(document).ready(function() {
         secondResult = "Java";
       }
 
+    $("#output").addClass("well").show();
     $(".firstOutput").text(firstResult);
     $(".secondOutput").text(secondResult);
     $(".musicSelection").text(music);
-    $("#output").show();
   });
 });
