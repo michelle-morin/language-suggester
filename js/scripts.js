@@ -21,7 +21,7 @@ $(document).ready(function() {
       }
 
     var secondResult;
-      if (music === "hiphop") {
+      if (music === "hip-hop") {
         secondResult = "Swift";
       } else if (music === "hype") {
         secondResult = "Swift";
