@@ -11,9 +11,9 @@ This webpage includes a form that collects input from a user. When the user subm
 ## Setup Requirements
 
 * _First, clone this repository via the following process:_
-* _Open a command line interface, such as the Terminal._
-* _Navigate to your computer's desktop using the command "cd desktop"._
-* _Confirm that you have navigated to the desktop by using the command "pwd"._
+    1. _Open a command line interface, such as the Terminal._
+    2. _Navigate to your computer's desktop using the command "cd desktop"._
+    3. _Confirm that you have navigated to the desktop by using the command "pwd"._
 * _Once the working directory is set to the desktop, enter the command "git clone https://github.com/michelle-morin/language-suggester" in the Terminal to clone this repository to the desktop._
 * _The repository should now be cloned to your desktop. To navigate into the language-suggester directory in the Terminal, enter the command "cd language-suggester"._
 * _To access and/or edit the HTML, CSS, and JavaScript that of the webpage, open contents of the repository in Atom using the command "atom ."_
