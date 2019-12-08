@@ -27,7 +27,7 @@ $(document).ready(function() {
         secondResult = "Swift";
       } else if (music === "rock") {
         secondResult = "Swift";
-      } else if (music === "indie") {
+      } else if (music === "indie or folk") {
         secondResult = "Swift";
       } else if (music === "heavy metal") {
         secondResult = "Java";
