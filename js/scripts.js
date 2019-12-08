@@ -29,7 +29,7 @@ $(document).ready(function() {
         secondResult = "Swift";
       } else if (music === "indie") {
         secondResult = "Swift";
-      } else if (music === "metal") {
+      } else if (music === "heavy metal") {
         secondResult = "Java";
       } else if (music === "no") {
         secondResult = "Java";
@@ -61,6 +61,14 @@ $(document).ready(function() {
       $("#ruby").hide();
       $("#go").hide();
       $("#c-plus-plus").show();
+    }
+
+    if (secondResult === "Swift") {
+      $("#swift").show();
+      $("#java").hide();
+    } else if (secondResult === "Java") {
+      $("#swift").hide();
+      $("#java").show();
     }
 
     $(".firstOutput").text(firstResult);
